@@ -81,3 +81,10 @@
 <img src="./md_assets/地图.png" alt="地图" width="200px" />
 
 <img src="./md_assets/地图点击后3.png" alt="地图点击后3" width="200px" />
+
+### 攻略系统
+
+攻略对象是【宿舍】场景下的猫，主要流程就是去商店买道具刷好感度，好感度到了一定值就能获得关键道具。
+好感度=猫的状态值+玩家功德值（具体权重还有待调整）
+
+<img src="./md_assets/攻略系统.png" alt="背包" width="200px" />
