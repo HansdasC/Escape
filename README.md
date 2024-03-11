@@ -80,4 +80,4 @@
 
 <img src="./md_assets/地图.png" alt="地图" style="zoom:33%;" />
 
-<img src="/Users/xiaochen/Desktop/介绍用/md_assets/地图点击后3.png" alt="地图点击后3" style="zoom:33%;" />
+<img src="./md_assets/地图点击后3.png" alt="地图点击后3" style="zoom:33%;" />
