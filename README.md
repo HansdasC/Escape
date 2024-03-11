@@ -16,13 +16,13 @@
 - 【继续游戏】：读取上次的本地存档并继续
 - 【设置】：进入设置界面
 
-<img src="./md_assets/主界面.png" alt="主界面" style="zoom:30%;" />
+<img src="./md_assets/主界面.png" alt="主界面" width="200px" />
 
 ### 【开始游戏】
 
 刚进入游戏会有个比较中二的介绍，会一行一行跳出来，看完后点击屏幕任意处就可以继续了。
 
-<img src="./md_assets/背景介绍.png" alt="背景介绍" style="zoom:30%;" />
+<img src="./md_assets/背景介绍.png" alt="背景介绍" width="200px" />
 
 ### 【继续游戏】
 
@@ -36,7 +36,7 @@
 - 【存档】：保存当前状态，下次【继续游戏】可以读取
 - 【返回主菜单】：返回主菜单
 
-<img src="./md_assets/设置.png" alt="设置" style="zoom:30%;" />
+<img src="./md_assets/设置.png" alt="设置" width="200px" />
 
 ## 正式开始后的布局
 
@@ -44,7 +44,7 @@
 
 右边是游戏状态值
 
-<img src="./md_assets/游戏布局.png" alt="游戏布局" style="zoom:30%;" />
+<img src="./md_assets/游戏布局.png" alt="游戏布局" width="200px" />
 
 ## 场景介绍
 
@@ -52,19 +52,19 @@
 
 类似于出生地的地方，这个猫就是需要攻略的NPC
 
-<img src="./md_assets/场景_宿舍.png" alt="场景_宿舍" style="zoom:30%;" />
+<img src="./md_assets/场景_宿舍.png" alt="场景_宿舍" width="200px" />
 
 ### 场景二：商店
 
 有各种道具可以买，有的可以用来攻略NPC
 
-<img src="./md_assets/场景_商店.png" alt="场景_商店" style="zoom:30%;" />
+<img src="./md_assets/场景_商店.png" alt="场景_商店" width="200px" />
 
 ### 场景三：实验室
 
 相当于最终密室，这里有通关的线索
 
-<img src="./md_assets/场景-实验室.png" alt="场景-实验室" style="zoom:30%;" />
+<img src="./md_assets/场景-实验室.png" alt="场景-实验室" width="200px" />
 
 ## 游戏系统
 
@@ -72,12 +72,12 @@
 
 显示相关物品，点击盲盒可以开启
 
-<img src="./md_assets/背包.png" alt="背包" style="zoom:33%;" />
+<img src="./md_assets/背包.png" alt="背包" width="200px" />
 
 ### 地图系统
 
 点击红色的坐标后
 
-<img src="./md_assets/地图.png" alt="地图" style="zoom:33%;" />
+<img src="./md_assets/地图.png" alt="地图" width="200px" />
 
-<img src="./md_assets/地图点击后3.png" alt="地图点击后3" style="zoom:33%;" />
+<img src="./md_assets/地图点击后3.png" alt="地图点击后3" width="200px" />
