@@ -24,7 +24,7 @@
         android:id="@+id/textView_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SHU里逃生"
+        android:text="Escape"
         android:textAlignment="center"
         android:textColor="#8FFFFFFF"
         android:textSize="70sp"
