@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:id="@+id/image_items_bag"
+        android:layout_width="140dp"
+        android:layout_height="140dp"/>
+
+    <TextView
+        android:id="@+id/textView_items_bag"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:textColor="@color/white"
+        android:layout_marginLeft="10dp"/>
+</LinearLayout>

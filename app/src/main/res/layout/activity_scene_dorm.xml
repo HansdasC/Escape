@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SceneDormActivity">
+
+
+    <ImageView
+        android:id="@+id/imageview_scene1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ceiling"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/money" />
+
+        <TextView
+            android:id="@+id/textView_money"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="余额"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.077">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/muyu_white" />
+
+        <TextView
+            android:id="@+id/textView_goodpoint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="功德"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/cat"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#01000000"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cat"
+        app:layout_constraintBottom_toBottomOf="@+id/imageview_scene1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintStart_toStartOf="@+id/imageview_scene1"
+        app:layout_constraintTop_toTopOf="@+id/imageview_scene1"
+        app:layout_constraintVertical_bias="0.895" />
+
+    <TextView
+        android:id="@+id/textView_dialog"
+        android:layout_width="380dp"
+        android:layout_height="300dp"
+        android:text="这似乎是个【宿舍】。\n也是最初醒来时身处的地方...."
+        android:textColor="#FDFCFC"
+        android:background="#C9232323"
+        android:textSize="18sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/imageview_scene1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95"/>
+
+    <Button
+        android:id="@+id/btn_dialogue_choose2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#C1787676"
+        android:text="玩耍"
+        android:visibility="invisible"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_dialog"
+        app:layout_constraintEnd_toEndOf="@+id/textView_dialog"
+        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintStart_toEndOf="@+id/btn_dialogue_choose1"
+        app:layout_constraintTop_toTopOf="@+id/textView_dialog"
+        app:layout_constraintVertical_bias="0.936" />
+
+    <Button
+        android:id="@+id/btn_dialogue_choose_no"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#C1787676"
+        android:text="返回"
+        android:visibility="visible"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_dialog"
+        app:layout_constraintEnd_toEndOf="@+id/textView_dialog"
+        app:layout_constraintHorizontal_bias="0.525"
+        app:layout_constraintStart_toEndOf="@+id/btn_dialogue_choose2"
+        app:layout_constraintTop_toTopOf="@+id/textView_dialog"
+        app:layout_constraintVertical_bias="0.936" />
+
+    <Button
+        android:id="@+id/btn_dialogue_choose1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:background="#C1787676"
+        android:text="看看收藏"
+        android:visibility="invisible"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_dialog"
+        app:layout_constraintEnd_toEndOf="@+id/textView_dialog"
+        app:layout_constraintHorizontal_bias="0.102"
+        app:layout_constraintStart_toStartOf="@+id/textView_dialog" />
+
+    <ImageButton
+        android:id="@+id/image_btn_setting"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:background="#01000000"
+        android:src="@drawable/setting"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02"
+        app:layout_constraintHorizontal_bias="0.02"/>
+
+
+    <ImageButton
+        android:id="@+id/image_btn_bag"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:background="#01000000"
+        android:src="@drawable/bag"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_btn_setting"
+        app:layout_constraintVertical_bias="0.02"
+        app:layout_constraintHorizontal_bias="0.02"/>
+
+    <ImageButton
+        android:id="@+id/image_btn_map"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:background="#01000000"
+        android:src="@drawable/map"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_btn_bag"
+        app:layout_constraintVertical_bias="0.02"
+        app:layout_constraintHorizontal_bias="0.02"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

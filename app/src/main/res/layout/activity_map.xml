@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    tools:context=".MapActivity">
+
+  <ImageView
+      android:id="@+id/imageview_shu_map"
+      android:layout_width="wrap_content"
+      android:layout_height="300dp"
+      android:scaleType="fitStart"
+      android:src="@drawable/shu_map"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.0"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.169" />
+
+  <ImageButton
+      android:id="@+id/image_btn_location_dorm"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:background="#01000000"
+      android:scaleType="centerCrop"
+      android:src="@drawable/location_new"
+      app:layout_constraintBottom_toBottomOf="@+id/imageview_shu_map"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.182"
+      app:layout_constraintStart_toStartOf="@+id/imageview_shu_map"
+      app:layout_constraintTop_toTopOf="@+id/imageview_shu_map"
+      app:layout_constraintVertical_bias="0.6" />
+
+  <ImageButton
+      android:id="@+id/image_btn_location_market"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:background="#01000000"
+      android:scaleType="centerCrop"
+      android:src="@drawable/location_new"
+      app:layout_constraintBottom_toBottomOf="@+id/imageview_shu_map"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.567"
+      app:layout_constraintStart_toStartOf="@+id/imageview_shu_map"
+      app:layout_constraintTop_toTopOf="@+id/imageview_shu_map"
+      app:layout_constraintVertical_bias="0.4" />
+
+  <ImageButton
+      android:id="@+id/image_btn_location_lab"
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:background="#01000000"
+      android:scaleType="centerCrop"
+      android:src="@drawable/location_new"
+      app:layout_constraintBottom_toBottomOf="@+id/imageview_shu_map"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.8"
+      app:layout_constraintStart_toStartOf="@+id/imageview_shu_map"
+      app:layout_constraintTop_toTopOf="@+id/imageview_shu_map"
+      app:layout_constraintVertical_bias="0.324" />
+
+  <TextView
+      android:id="@+id/textView_map_dialog"
+      android:layout_width="380dp"
+      android:layout_height="300dp"
+      android:text="请选择想前往的位置..."
+      android:textSize="18sp"
+      android:textColor="#FDFCFC"
+      android:background="#C9232323"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.516"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/imageview_shu_map"
+      app:layout_constraintVertical_bias="0.724" />
+
+  <Button
+      android:id="@+id/btn_map_yes"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="88dp"
+      android:text="前往"
+      android:visibility="invisible"
+      android:background="#C1787676"
+      android:textColor="@color/white"
+      app:layout_constraintBottom_toBottomOf="@+id/textView_map_dialog"
+      app:layout_constraintStart_toStartOf="@+id/textView_map_dialog"
+      app:layout_constraintTop_toTopOf="@+id/textView_map_dialog"
+      app:layout_constraintVertical_bias="0.853" />
+
+  <Button
+      android:id="@+id/btn_map_no"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="返回"
+      android:background="#C1787676"
+      android:textColor="@color/white"
+      android:visibility="visible"
+      app:layout_constraintBottom_toBottomOf="@+id/textView_map_dialog"
+      app:layout_constraintEnd_toEndOf="@+id/textView_map_dialog"
+      app:layout_constraintHorizontal_bias="0.287"
+      app:layout_constraintStart_toEndOf="@+id/btn_map_yes"
+      app:layout_constraintTop_toTopOf="@+id/textView_map_dialog"
+      app:layout_constraintVertical_bias="0.853" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SceneMarketActivity">
+
+    <ImageView
+        android:id="@+id/imageview_scene_market"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/market"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView_choose_market"
+        android:layout_width="350dp"
+        android:layout_height="180dp"
+        android:background="#66353535"
+        android:textColor="#FDFCFC"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/textView_dialog_market"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.85" />
+
+    <ImageButton
+        android:id="@+id/image_btn_muyu_market"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:background="#01000000"
+        android:scaleType="centerCrop"
+        android:src="@drawable/muyu_brown"
+        app:layout_constraintBottom_toTopOf="@+id/textView_choose_market"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageview_scene_market" />
+
+    <ImageButton
+        android:id="@+id/image_btn_cat_toy_market"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="276dp"
+        android:layout_marginEnd="63dp"
+        android:background="#01000000"
+        android:scaleType="centerCrop"
+        android:src="@drawable/item_cat_toy"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_choose_market"
+        app:layout_constraintEnd_toEndOf="@+id/textView_choose_market"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="@+id/textView_choose_market"
+        app:layout_constraintTop_toTopOf="@+id/textView_choose_market"
+        app:layout_constraintVertical_bias="0.166" />
+
+    <ImageButton
+        android:id="@+id/image_btn_charge_market"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#01000000"
+        android:scaleType="centerCrop"
+        android:src="@drawable/item_charge"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_choose_market"
+        app:layout_constraintEnd_toEndOf="@+id/textView_choose_market"
+        app:layout_constraintHorizontal_bias="0.193"
+        app:layout_constraintStart_toStartOf="@+id/textView_choose_market"
+        app:layout_constraintTop_toTopOf="@+id/textView_choose_market"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <ImageButton
+        android:id="@+id/image_btn_quest_market"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#01000000"
+        android:scaleType="centerCrop"
+        android:src="@drawable/item_quest"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_choose_market"
+        app:layout_constraintEnd_toStartOf="@+id/image_btn_quest_big_market"
+
+        app:layout_constraintStart_toEndOf="@+id/image_btn_charge_market"
+        app:layout_constraintTop_toTopOf="@+id/textView_choose_market"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <ImageButton
+        android:id="@+id/image_btn_quest_big_market"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="276dp"
+        android:layout_marginEnd="63dp"
+        android:background="#01000000"
+        android:scaleType="centerCrop"
+        android:src="@drawable/item_quest_big"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_choose_market"
+        app:layout_constraintEnd_toEndOf="@+id/textView_choose_market"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="@+id/textView_choose_market"
+        app:layout_constraintTop_toTopOf="@+id/textView_choose_market"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <ImageButton
+        android:id="@+id/image_btn_fish_market"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#01000000"
+        android:scaleType="centerCrop"
+        android:src="@drawable/item_fish"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_choose_market"
+        app:layout_constraintEnd_toEndOf="@+id/textView_choose_market"
+        app:layout_constraintHorizontal_bias="0.193"
+        app:layout_constraintStart_toStartOf="@+id/textView_choose_market"
+        app:layout_constraintTop_toTopOf="@+id/textView_choose_market"
+        app:layout_constraintVertical_bias="0.166" />
+
+    <ImageButton
+        android:id="@+id/image_btn_cat_book_market"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="#01000000"
+        android:scaleType="centerCrop"
+        android:src="@drawable/item_cat_book"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_choose_market"
+        app:layout_constraintEnd_toStartOf="@+id/image_btn_cat_toy_market"
+
+        app:layout_constraintStart_toEndOf="@+id/image_btn_fish_market"
+        app:layout_constraintTop_toTopOf="@+id/textView_choose_market"
+        app:layout_constraintVertical_bias="0.166" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02">
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/money" />
+
+        <TextView
+            android:id="@+id/textView_money_market"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="余额"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.077">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/muyu_white" />
+
+        <TextView
+            android:id="@+id/textView_goodpoint_market"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="功德"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_dialog_market"
+        android:layout_width="380dp"
+        android:layout_height="280dp"
+        android:text="欢迎光临，这里是【教育超市】。\n请选择您感兴趣的商品......"
+        android:textColor="#FDFCFC"
+        android:background="#C9232323"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.962" />
+
+    <Button
+        android:id="@+id/btn_dialogue_choose_yes_market"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:text="确认购买"
+        android:visibility="invisible"
+        android:background="#C1787676"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_dialog_market"
+        app:layout_constraintEnd_toEndOf="@+id/textView_dialog_market"
+        app:layout_constraintHorizontal_bias="0.14"
+        app:layout_constraintStart_toStartOf="@+id/textView_dialog_market"
+        app:layout_constraintTop_toTopOf="@+id/textView_dialog_market"
+        app:layout_constraintVertical_bias="0.92" />
+
+    <Button
+        android:id="@+id/btn_dialogue_choose_no_market"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="取消"
+        android:background="#C1787676"
+        android:textColor="@color/white"
+        android:visibility="invisible"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView_dialog_market"
+        app:layout_constraintEnd_toEndOf="@+id/textView_dialog_market"
+        app:layout_constraintHorizontal_bias="0.531"
+        app:layout_constraintStart_toEndOf="@+id/btn_dialogue_choose_yes_market"
+        app:layout_constraintTop_toTopOf="@+id/textView_dialog_market"
+        app:layout_constraintVertical_bias="0.92" />
+
+    <ImageButton
+        android:id="@+id/image_btn_setting_market"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:background="#01000000"
+        android:src="@drawable/setting"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02"
+        app:layout_constraintHorizontal_bias="0.02"/>
+
+    <ImageButton
+        android:id="@+id/image_btn_bag_market"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:background="#01000000"
+        android:src="@drawable/bag"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_btn_setting_market"
+        app:layout_constraintVertical_bias="0.02"
+        app:layout_constraintHorizontal_bias="0.02"/>
+
+    <ImageButton
+        android:id="@+id/image_btn_map_market"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        android:background="#01000000"
+        android:src="@drawable/map"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/image_btn_bag_market"
+        app:layout_constraintVertical_bias="0.02"
+        app:layout_constraintHorizontal_bias="0.02"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

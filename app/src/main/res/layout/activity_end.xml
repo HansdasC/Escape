@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EndActivity">
+
+    <ImageView
+        android:id="@+id/imageview_intro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/timechannel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="404dp"
+        android:layout_height="88dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageview_intro"
+        app:layout_constraintVertical_bias="0.297">
+
+        <TextView
+            android:id="@+id/textView_end1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="时间机器重启中"
+            android:visibility="invisible"
+            android:textColor="#BDBABA"
+            android:textSize="18sp" />
+
+        <TextView
+            android:visibility="invisible"
+            android:id="@+id/textView_end2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="."
+            android:textColor="#BDBABA"
+            android:textSize="18sp" />
+
+        <TextView
+            android:visibility="invisible"
+            android:id="@+id/textView_end3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="."
+            android:textColor="#BDBABA"
+            android:textSize="18sp" />
+
+        <TextView
+            android:visibility="invisible"
+            android:id="@+id/textView_end4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="."
+            android:textColor="#BDBABA"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/btn_back2start_end"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:background="#79636363"
+        android:text="返回主菜单"
+        android:textColor="#BDBABA"
+        android:textSize="28sp"
+
+        app:layout_constraintBottom_toBottomOf="@+id/imageview_intro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
